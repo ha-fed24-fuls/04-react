@@ -1,4 +1,5 @@
 import './App.css'
+import Counter from './components/Counter.tsx'
 import Spoiler from './components/Spoiler.tsx'
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
 				<p> Harry Potter </p>
 				<Spoiler secret={'Snape kills Dumbledore'} />
 			</section>
+
+			<Counter />
 
 		</div>
 	)
