@@ -1,4 +1,5 @@
 import './App.css'
+import AnimalList from './components/AnimalList.tsx'
 import Counter from './components/Counter.tsx'
 import Spoiler from './components/Spoiler.tsx'
 
@@ -17,6 +18,8 @@ function App() {
 			</section>
 
 			<Counter />
+
+			<AnimalList />
 
 		</div>
 	)
