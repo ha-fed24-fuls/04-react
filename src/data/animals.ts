@@ -1,6 +1,7 @@
 import type { Animal } from "./types";
 
 // Eftersom datan inte innehåller "id" använder vi species, som är unik
+// "animals" är en lista av objekt som IMPLEMENTERAR Animal-interfacet
 export const animals: Animal[] = [
 	{ name: "Bella", species: "Hund" },
 	{ name: "Misse", species: "Katt" },

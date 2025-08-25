@@ -1,13 +1,13 @@
 import { animals } from "../data/animals.ts"
+import AnimalItem from "./AnimalItem.tsx"
 
 const AnimalList: React.FC = () => {
 
 	return (
 		<section className="framed">
-			{animals.map(animal => (
-				<div key={animal.species}>
-					{animal.name} är en {animal.species}
-				</div>
+			{animals.map(a => (
+				<AnimalItem key={a.species} animal={a} />
+
 			))}
 		</section>
 	)
