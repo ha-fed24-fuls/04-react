@@ -3,7 +3,7 @@ import { animals } from "../data/animals.ts"
 import AnimalItem from "./AnimalItem.tsx"
 import type { Animal } from "../data/types.ts"
 
-const AnimalList: React.FC = () => {
+const AnimalList = () => {
 	const [data, setData] = useState<Animal[]>(animals)
 
 	const moveToTop = (species: string) => {

@@ -6,7 +6,7 @@ type Props = {
 	secret: string;
 }
 
-const Spoiler: React.FC<Props> = ({ secret }: Props) => {
+const Spoiler = ({ secret }: Props) => {
 	const [showSpoiler, setShowSpoiler] = useState<boolean>(false)
 
 	// TypeScript kräver en "MouseEventHandler" - våran handleClick matchar det

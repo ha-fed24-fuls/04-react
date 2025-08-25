@@ -3,7 +3,7 @@ import { fetchData } from "../data/chuckApi"
 import type { ApiData, Callback } from "../data/types"
 
 
-const Api: React.FC = () => {
+const Api = () => {
 	const [data, setData] = useState<null | ApiData>(null)
 
 

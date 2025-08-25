@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import type { Callback } from '../data/types'
 
-const Counter: React.FC = () => {
+const Counter = () => {
 	const [count, setCount] = useState<number>(0)
 	const [isDark, setIsDark] = useState<boolean>(false)
 
